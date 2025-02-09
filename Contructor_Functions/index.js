@@ -1,10 +1,10 @@
 function Person(name){  //Contructor function start with capital letter but itcan work without capital too.
-    //step1 for new keyword const this = {]
+    //step1 for new keyword const this = {}
     this.name = name;
     // step2 for new keyword return this
 }
 
-// The "new" keyword JS does 2steps for us create this object and return this object behind thew scene [Refer to line 2 & 4]
+// The "new" keyword JS does two steps for us create this object and return this object behind thew scene [Refer to line 2 & 4]
 const sina = new Person("Sina")
 
 console.log(sina)
