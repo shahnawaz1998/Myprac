@@ -19,5 +19,6 @@ function Human(name,gender,age){
     }
 }
 
+
 const Sam = new Human('Sam','M','22');
 console.log(Sam.intro())
